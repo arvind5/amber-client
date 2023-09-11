@@ -9,7 +9,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/intel/amber-client/tdx-cli/constants"
+	"github.com/arvind5/amber-client/tdx-cli/constants"
 	"github.com/spf13/cobra"
 )
 

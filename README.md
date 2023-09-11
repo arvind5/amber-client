@@ -6,7 +6,7 @@ This is the beta version of Go Library for integrating with Intel Project Amber 
 Download the latest version of the library with the following commands:
 
 ```sh
-go get github.com/intel/amber-client/go-client
+go get github.com/arvind5/amber-client/go-client
 ```
 
 ## Go Requirement
@@ -25,7 +25,7 @@ Create a new Project Amber client, then use the exposed services to
 access different parts of the Project Amber API.
 
 ```go
-import amberclient "github.com/intel/amber-client/go-client"
+import amberclient "github.com/arvind5/amber-client/go-client"
 
 cfg := amberclient.Config{
         // Replace AMBER_URL with real Amber URL

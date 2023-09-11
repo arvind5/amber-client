@@ -10,8 +10,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/intel/amber-client/tdx-cli/constants"
-	"github.com/intel/amber-client/tdx-cli/test"
+	"github.com/arvind5/amber-client/tdx-cli/constants"
+	"github.com/arvind5/amber-client/tdx-cli/test"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -17,7 +17,7 @@ import (
 	"encoding/json"
 	"unsafe"
 
-	"github.com/intel/amber-client/go-client"
+	"github.com/arvind5/amber-client/go-client"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )
