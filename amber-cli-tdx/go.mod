@@ -9,17 +9,13 @@ go 1.20
 require (
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
-	github.com/arvind5/amber-client/go-client v0.0.0
-	github.com/arvind5/amber-client/go-tdx v0.0.0
+	github.com/arvind5/amber-client/go-client v1.0.0
+	github.com/arvind5/amber-client/go-tdx v1.0.0
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.7.0
 	github.com/stretchr/testify v1.8.4
 )
-
-replace github.com/arvind5/amber-client/go-client => ../go-client
-
-replace github.com/arvind5/amber-client/go-tdx => ../go-tdx
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect

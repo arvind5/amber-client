@@ -7,7 +7,7 @@ module github.com/arvind5/amber-client/go-sgx
 go 1.20
 
 require (
-	github.com/arvind5/amber-client/go-client v0.0.0
+	github.com/arvind5/amber-client/go-client v1.0.0
 	github.com/pkg/errors v0.9.1
 )
 
@@ -26,5 +26,3 @@ require (
 	golang.org/x/crypto v0.10.0 // indirect
 	golang.org/x/sys v0.9.0 // indirect
 )
-
-replace github.com/arvind5/amber-client/go-client => ../go-client
