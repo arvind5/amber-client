@@ -5,7 +5,7 @@
  */
 package sgx
 
-// #cgo CFLAGS: -I/opt/intel/sgxsdk/include -fstack-protector-strong
+// #cgo CFLAGS: -I/opt/arvind5/sgxsdk/include -fstack-protector-strong
 // #cgo LDFLAGS: -lsgx_dcap_ql -lsgx_urts -ldl -lpthread -L/usr/lib/x86_64-linux-gnu/
 //
 // #include <stdlib.h>
@@ -34,7 +34,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/intel/amber-client/go-client"
+	"github.com/arvind5/amber-client/go-client"
 	"github.com/pkg/errors"
 )
 

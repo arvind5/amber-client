@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/intel/amber-client/tdx-cli/constants"
+	"github.com/arvind5/amber-client/tdx-cli/constants"
 )
 
 func TestGetVersion(t *testing.T) {

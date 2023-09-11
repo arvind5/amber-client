@@ -8,7 +8,7 @@
 package tdx
 
 import (
-	"github.com/intel/amber-client/go-client"
+	"github.com/arvind5/amber-client/go-client"
 )
 
 type mockAdapter struct {

@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/intel/amber-client/go-tdx"
-	"github.com/intel/amber-client/tdx-cli/constants"
+	"github.com/arvind5/amber-client/go-tdx"
+	"github.com/arvind5/amber-client/tdx-cli/constants"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )
