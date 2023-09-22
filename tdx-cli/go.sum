@@ -1,3 +1,5 @@
+github.com/arvind5/trustauthority-client v1.0.1 h1:zON7s+0qMP8v9x5vY0BcLGyYqDw4x8HV7PLljgopvsg=
+github.com/arvind5/trustauthority-client v1.0.1/go.mod h1:BOgoVOmouYg0Gy5sx6maUwDKRYReU2WmhNQ/G816w2g=
 github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
