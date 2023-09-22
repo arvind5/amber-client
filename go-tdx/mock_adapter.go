@@ -8,7 +8,7 @@
 package tdx
 
 import (
-	"github.com/intel/trustauthority-client/go-connector"
+	"github.com/arvind5/trustauthority-client/go-connector"
 )
 
 type mockAdapter struct {

@@ -10,8 +10,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/intel/trustauthority-client/tdx-cli/constants"
-	"github.com/intel/trustauthority-client/tdx-cli/test"
+	"github.com/arvind5/trustauthority-client/tdx-cli/constants"
+	"github.com/arvind5/trustauthority-client/tdx-cli/test"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -169,7 +169,7 @@ func TestTokenCmd_MissingTrustAuthorityApiKey(t *testing.T) {
 
 func TestTokenCmd_MalformedTrustAuthorityUrl(t *testing.T) {
 
-	configJson := `{"trustauthority_api_url":":trustauthority.intel.com","trustauthority_api_key":"YXBpa2V5"}`
+	configJson := `{"trustauthority_api_url":":trustauthority.arvind5.com","trustauthority_api_key":"YXBpa2V5"}`
 	_ = os.WriteFile(confFilePath, []byte(configJson), 0600)
 	defer os.Remove(confFilePath)
 	_, err := execute(t, rootCmd, constants.TokenCmd, "--"+constants.ConfigOption, confFilePath)

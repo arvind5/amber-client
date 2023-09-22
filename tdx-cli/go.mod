@@ -2,15 +2,15 @@
 // All rights reserved.
 // SPDX-License-Identifier: BSD-3-Clause
 
-module github.com/intel/trustauthority-client/tdx-cli
+module github.com/arvind5/trustauthority-client/tdx-cli
 
 go 1.21
 
 require (
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
-	github.com/intel/trustauthority-client/go-connector v1.0.0
-	github.com/intel/trustauthority-client/go-tdx v1.0.0
+	github.com/arvind5/trustauthority-client/go-connector v1.0.0
+	github.com/arvind5/trustauthority-client/go-tdx v1.0.0
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.7.0
@@ -41,6 +41,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/intel/trustauthority-client/go-connector => ../go-connector
+replace github.com/arvind5/trustauthority-client/go-connector => ../go-connector
 
-replace github.com/intel/trustauthority-client/go-tdx => ../go-tdx
+replace github.com/arvind5/trustauthority-client/go-tdx => ../go-tdx

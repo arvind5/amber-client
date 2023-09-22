@@ -10,8 +10,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/intel/trustauthority-client/tdx-cli/constants"
-	"github.com/intel/trustauthority-client/tdx-cli/test"
+	"github.com/arvind5/trustauthority-client/tdx-cli/constants"
+	"github.com/arvind5/trustauthority-client/tdx-cli/test"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -104,7 +104,7 @@ func TestVerifyCmd_MissingTrustAuthorityUrl(t *testing.T) {
 
 func TestVerifyCmd_MalformedTrustAuthorityUrl(t *testing.T) {
 
-	configJson := `{"trustauthority_url":":trustauthority.intel.com"}`
+	configJson := `{"trustauthority_url":":trustauthority.arvind5.com"}`
 	_ = os.WriteFile(confFilePath, []byte(configJson), 0600)
 	defer os.Remove(confFilePath)
 	_, err := execute(t, rootCmd, constants.VerifyCmd, "--"+constants.ConfigOption, confFilePath, "--"+constants.TokenOption, token)

@@ -6,7 +6,7 @@
 
 package main
 
-import "github.com/intel/trustauthority-client/tdx-cli/cmd"
+import "github.com/arvind5/trustauthority-client/tdx-cli/cmd"
 
 func main() {
 	cmd.Execute()

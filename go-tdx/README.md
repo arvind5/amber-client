@@ -1,7 +1,7 @@
 # Intel® Trust Authority Go TDX Adapter
 Go module for collecting TDX Quote from TDX enabled platform.
 
-This library leverages Intel SGX DCAP for Quote generation: [https://github.com/intel/SGXDataCenterAttestationPrimitives](https://github.com/intel/SGXDataCenterAttestationPrimitives)
+This library leverages Intel SGX DCAP for Quote generation: [https://github.com/arvind5/SGXDataCenterAttestationPrimitives](https://github.com/arvind5/SGXDataCenterAttestationPrimitives)
 
 ## Go Requirement
 
@@ -19,7 +19,7 @@ Create a new TDX adapter, then use the adapter to collect quote from TDX enabled
 Optionally collect the eventlog as well for a TD by passing an eventlog parser in second argument.
 
 ```go
-import "github.com/intel/trustauthority-client/go-tdx"
+import "github.com/arvind5/trustauthority-client/go-tdx"
 
 adapter, err := tdx.NewEvidenceAdapter(tdHeldData, nil)
 if err != nil {
